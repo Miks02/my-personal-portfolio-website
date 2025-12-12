@@ -101,7 +101,7 @@
 
       <section id="about" class="py-20">
         <div class="mx-auto w-11/12 md:w-3/4">
-          <div class="flex flex-col md:flex-row sm:items-start gap-10">
+          <div class="flex flex-col md:flex-row md:items-start gap-10">
             <div class="flex justify-center md:justify-start md:w-1/3">
               <div class="w-56 h-56 rounded-xl bg-linear-to-br from-softGray to-panel flex items-center justify-center ring-1 ring-white/6 overflow-hidden shadow-lg">
                 <img src="/images/Profile.png" alt="Milan's profile photo" class="w-full h-full object-cover" />
@@ -153,7 +153,7 @@
 
       <section id="about" class="py-20">
         <div class="mx-auto w-11/12 md:w-3/4">
-          <div class="flex flex-col md:flex-row-reverse sm:items-start gap-10">
+          <div class="flex flex-col md:flex-row-reverse md:items-start gap-10">
             <div class="flex justify-center md:justify-end md:w-1/3">
               <div class="w-56 h-56 rounded-xl bg-linear-to-br from-softGray to-panel flex items-center justify-center ring-1 ring-white/6 overflow-hidden shadow-lg">
                 <img src="/images/aspnet.png" alt="Milan's profile photo" class="w-full h-full object-cover" />
@@ -212,7 +212,7 @@
           <p class="mt-2 text-gray-400">My professional journey and key projects.</p>
 
           <div class="mt-8 space-y-8">
-            <div class="reveal bg-darkBlue p-6 rounded-lg border border-transparent hover:border-redaccent/40 transition">
+            <div class="reveal bg-darkBlue p-6 rounded-lg border border-transparent hover:border-blueaccent/40 transition">
               <div class="flex items-start justify-between gap-4">
                 <div class="flex-1">
                   <h4 class="text-lg font-semibold text-white">UI/UX Developer</h4>
@@ -225,7 +225,7 @@
               </p>
             </div>
 
-            <div class="reveal bg-darkBlue p-6 rounded-lg border border-transparent hover:border-redaccent/40 transition">
+            <div class="reveal bg-darkBlue p-6 rounded-lg border border-transparent hover:border-blueaccent/40 transition">
               <div class="flex items-start justify-between gap-4">
                 <div class="flex-1">
                   <h4 class="text-lg font-semibold text-white">Full-Stack Development Intern</h4>
@@ -238,6 +238,118 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="projects" class="py-16">
+        <div class="mx-auto w-11/12 md:w-3/4">
+          <h3 class="text-xl font-semibold">Selected Projects</h3>
+          <p class="mt-2 text-gray-400">A selection of recent work. None of these projects are deployed online at the moment which i plan to change in the near future. 
+            For now, you can click on 'github' to view source code and/or read the readme file if you are interested in all of the project's features
+          </p>
+
+          <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/flower_shop.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">Flower Shop - WORK IN PROGRESS</h4>
+              <p class="mt-2 text-sm text-gray-400">My latest project. An ecommerce app for a flower shop. It will have core features like: Delivery tracking, online checkout, real time notifications.. </p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">ASP.NET Core</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">HTMX</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">GitHub</a>
+              </div>
+            </div>
+          </article>
+          <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/dental_clinic.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">Dental clinic management system</h4>
+              <p class="mt-2 text-sm text-gray-400">The project provides full support for patient records, appointment scheduling, service management, staff management, and reporting.</p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">ASP.NET Core</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/Dentistry-Management-Web-App">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/cinema.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">Cinema Management System</h4>
+              <p class="mt-2 text-sm text-gray-400">A full stack app that imitates a system for managing cinema's like cineplexx. Allowing users to 
+                book tickets, admins to make hall layouts...
+              </p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">ASP.NET Core</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/cinema-web-app">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          
+
+          <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/sunglasses.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">Sunglasses shop ecommerce app</h4>
+              <p class="mt-2 text-sm text-gray-400">Plain and simple ecommerce app done in ASP.NET MVC. Supported functionalities: cart. checkout, order tracking, reviews, ratings, simple ticket system etc...</p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">ASP.NET Core</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/sunglasses-app-web-app">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/catering.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">Catering service ecommerce</h4>
+              <p class="mt-2 text-sm text-gray-400">My first and last project done in Spring Boot + Thymeleaf . This app is made to look like a full fledged website with simulated cart and checkout systems 
+              </p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Java</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Spring Boot</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MySQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/catering-service-web-app">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="reveal bg-panel rounded-lg overflow-hidden shadow-md border border-transparent hover:border-blueaccent/40 transition">
+            <img src="images/projects/znamo.png" class="h-40 w-full bg-linear-to-br from-gray-800 to-gray-700 flex items-center justify-center text-gray-500"></img>
+            <div class="p-4">
+              <h4 class="font-semibold">ZNAMO Redesign</h4>
+              <p class="mt-2 text-sm text-gray-400">My attempt at redesigning an already existing website for a company 'ZNAMO' using Laravel for backend and plain Typescript/scss stack for frontend</p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Laravel</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Typescript</span>
+                <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MySQL</span>
+              </div>
+              <div class="mt-4 flex gap-3">
+                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/znamo-redesign">GitHub</a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
