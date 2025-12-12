@@ -26,7 +26,8 @@ window.addEventListener("DOMContentLoaded", () => {
         }
     mobileMenu.addEventListener("click", (e) => {
         if(e.target.tagName === "A")
-            mobileMenu.classList.toggle("hidden");
+            mobileMenu.classList.add("hidden");
+        
     })
 
     function initObservers() {

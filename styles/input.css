@@ -10,3 +10,7 @@
   
   --font-family-sans: Inter, Poppins, ui-sans-serif, system-ui, sans-serif;
 }
+
+section {
+  scroll-margin-top: 60px;
+}
