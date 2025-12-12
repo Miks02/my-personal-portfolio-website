@@ -24,6 +24,10 @@ window.addEventListener("DOMContentLoaded", () => {
                     mobileMenu.classList.toggle('hidden');
             });
         }
+    mobileMenu.addEventListener("click", (e) => {
+        if(e.target.tagName === "A")
+            mobileMenu.classList.toggle("hidden");
+    })
 
     function initObservers() {
         const revealSelector = 'section, article';
