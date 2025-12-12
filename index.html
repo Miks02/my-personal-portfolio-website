@@ -16,7 +16,7 @@
 
   <header class="fixed inset-x-0 top-4 z-50 pointer-events-auto">
       <div class="max-w-6xl mx-auto px-6 py-4 flex justify-center">
-        <div class="w-11/12 md:w-2/3 lg:w-7/12 rounded-2xl bg-black/12 border border-gray-400 backdrop-blur-2xl px-4 py-2 flex items-center justify-between shadow-sm">
+        <div class="w-11/12 md:w-2/3 lg:w-7/12 rounded-2xl bg-black/12 border border-gray-400 backdrop-blur-2xl px-4 py-2 flex items-center justify-between shadow-2xl">
           <a href="#home" class="text-blueaccent font-semibold text-lg">Milan Nikolić</a>
 
           <nav class="hidden md:flex items-center gap-6 text-sm text-gray-200">
@@ -25,6 +25,12 @@
             <a href="#experience" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Experience</a>
             <a href="#projects" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Projects</a>
             <a href="#contact" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Contact</a>
+            <a href="https://github.com/Miks02" class="nav-link hover:text-blueaccent transition font-semibold">
+            <i class="devicon-github-original text-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/milan-nikoli%C4%87-8abb88254/" class="nav-link hover:text-blueaccent transition font-semibold">
+              <i class="devicon-linkedin-plain text-lg"></i>
+            </a>
           </nav>
 
           <div class="md:hidden">
@@ -44,6 +50,9 @@
           <a href="#experience" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Experience</a>
           <a href="#projects" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Projects</a>
           <a href="#contact" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Contact</a>
+          <a href="https://github.com/Miks02" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">GitHub</a>
+          <a href="https://www.linkedin.com/in/milan-nikoli%C4%87-8abb88254/" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Linkedin</a>
+
         </div>
       </div>
     </header>
@@ -68,8 +77,9 @@
 
           <div class="mt-8 flex justify-center flex-wrap gap-4">
             <div class="flex flex-col items-center gap-1">
-              <i class="devicon-csharp-plain text-2xl" style="color: #239120;"></i>
-              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">C#</span>
+
+            <i class="devicon-csharp-plain colored text-2xl"></i>
+            <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">C#</span>
             </div>
             <div class="flex flex-col items-center gap-1">
               <i class="devicon-dot-net-plain text-2xl" style="color: #512BD4;"></i>
@@ -81,10 +91,6 @@
             </div>
             
             <div class="flex flex-col items-center gap-1">
-              <i class="devicon-javascript-plain text-2xl" style="color: #F7DF1E;"></i>
-              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">JavaScript</span>
-            </div>
-            <div class="flex flex-col items-center gap-1">
               <i class="devicon-microsoftsqlserver-plain text-2xl" style="color: #CC2927;"></i>
               <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">MS SQL</span>
             </div>
@@ -92,6 +98,20 @@
                 <i class="devicon-mysql-original text-2xl"></i>
                <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">MySQL</span>
             </div>
+
+            <div class="flex flex-col items-center gap-1">
+              <i class="devicon-tailwindcss-original colored text-2xl"></i>
+              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">Tailwind</span>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <i class="fab fa-bootstrap text-2xl" style="color: #7952b3;"></i>
+              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">Bootstrap</span>
+            </div>
+            <div class="flex flex-col items-center gap-1">
+              <i class="fab fa-sass text-2xl" style="color: #cf649a;"></i>
+              <span class="text-xs px-2 py-1 rounded-full bg-gray-800 text-gray-200 border border-white/5">SCSS</span>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -150,6 +170,11 @@
         </div>
       </section>
 
+      <div class="w-full flex justify-center my-8">
+        <div class="relative w-11/12">
+          <div class="h-px bg-linear-to-r from-transparent via-white/10 to-transparent"></div>
+        </div>
+      </div>
 
       <section id="about" class="py-20">
         <div class="mx-auto w-11/12 md:w-3/4">
@@ -205,6 +230,11 @@
         </div>
       </section>
 
+      <div class="w-full flex justify-center my-8">
+        <div class="relative w-11/12">
+          <div class="h-px bg-linear-to-r from-transparent via-white/10 to-transparent"></div>
+        </div>
+      </div>
 
       <section id="experience" class="py-16">
         <div class="mx-auto w-11/12 md:w-3/4">
@@ -241,9 +271,15 @@
         </div>
       </section>
 
+       <div class="w-full flex justify-center my-8">
+        <div class="relative w-11/12">
+          <div class="h-px bg-linear-to-r from-transparent via-white/10 to-transparent"></div>
+        </div>
+      </div>
+
       <section id="projects" class="py-16">
         <div class="mx-auto w-11/12 md:w-3/4">
-          <h3 class="text-xl font-semibold">Selected Projects</h3>
+          <h3 class="text-xl font-semibold">Most recent projects</h3>
           <p class="mt-2 text-gray-400">A selection of recent work. None of these projects are deployed online at the moment which i plan to change in the near future. 
             For now, you can click on 'github' to view source code and/or read the readme file if you are interested in all of the project's features
           </p>
@@ -261,8 +297,11 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">HTMX</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">GitHub</a>
+              <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -276,8 +315,11 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/Dentistry-Management-Web-App">GitHub</a>
+               <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -294,8 +336,11 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/cinema-web-app">GitHub</a>
+               <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -312,8 +357,11 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MVC</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MSSQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/sunglasses-app-web-app">GitHub</a>
+               <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -329,8 +377,11 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Spring Boot</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MySQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/catering-service-web-app">GitHub</a>
+               <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
@@ -345,16 +396,79 @@
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">Typescript</span>
                 <span class="text-xs px-2 py-1 bg-gray-800 text-gray-300 rounded">MySQL</span>
               </div>
-              <div class="mt-4 flex gap-3">
-                <a class="text-sm px-3 py-2 rounded-md bg-transparent border border-white/6 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/znamo-redesign">GitHub</a>
+               <div class="mt-4 flex gap-3"> 
+                <a class="flex justify-center items-center gap-2 text-sm px-3 py-2 rounded-md bg-transparent border border-gray-600 hover:bg-blueaccent/10 hover:border-blueaccent text-gray-200 link-hover" href="https://github.com/Miks02/flower_shop_ecommerce_app">
+                  <i class="devicon-github-original"></i>
+                  GitHub
+                </a>
               </div>
             </div>
           </article>
         </div>
       </section>
 
+      <div class="w-full flex justify-center my-8">
+        <div class="relative w-11/12">
+          <div class="h-px bg-linear-to-r from-transparent via-white/10 to-transparent"></div>
+        </div>
+      </div>
+
+      <section id="contact" class="py-20">
+        <div class="mx-auto w-11/12 md:w-3/4">
+          <h2 class="text-3xl font-bold tracking-tight">Get in touch</h2>
+          <p class="mt-2 text-sm text-gray-300">If you'd like to work together or have a question, send me a message. I'll get back as soon as I can.</p>
+
+          <div class="mt-10 w-full">
+            <form id="contact-form" class="max-w-2xl mx-auto bg-panel p-6 rounded-xl border border-white/5 shadow-sm" action="https://formsubmit.co/34f3c8c52fcd514097ba5fc74988340d" method="POST" aria-label="Contact form">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <label class="relative block">
+                  <span class="sr-only">Name</span>
+                  <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"><i class="fa fa-user"></i></span>
+                  <input name="name" required placeholder="Your name" class="mt-1 block w-full rounded-lg bg-softGray border border-white/6 px-10 py-3 text-sm text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-redaccent/30 transition" />
+                </label>
+
+                <label class="relative block">
+                  <span class="sr-only">Email</span>
+                  <span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"><i class="fa fa-envelope"></i></span>
+                  <input name="email" type="email" required placeholder="you@example.com" class="mt-1 block w-full rounded-lg bg-softGray border border-white/6 px-10 py-3 text-sm text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-redaccent/30 transition" />
+                </label>
+              </div>
+
+              <label class="block mt-4 relative">
+                <span class="sr-only">Message</span>
+                <textarea name="message" rows="8" required placeholder="Write your message..." class="resize-none mt-1 block w-full rounded-lg bg-softGray border border-white/6 px-4 py-3 text-sm text-gray-100 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-redaccent/30 transition"></textarea>
+              </label>
+
+              <div class="mt-5 flex flex-col sm:flex-row sm:items-center sm:gap-4">
+                <button type="submit" class="cursor-pointer bg-blueaccent mx-auto flex items-center justify-center bg-redaccent hover:opacity-95 text-white font-semibold px-5 py-2 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition">Send message</button>
+                <div id="contact-status" class="mt-3 sm:mt-0 text-sm text-gray-300"></div>
+              </div>
+
+              <p class="mt-4 text-xs text-gray-500 text-center">I am open to discussing potential projects and roles. Drop me a line.</p>
+            </form>
+          </div>
+          <div class="flex w-full justify-center mt-10 gap-5">
+            <a href="mailto:milan.miki.nikolic2002@gmail.com" aria-label="Send email" class="nav-link hover:text-blueaccent transition font-semibold text-gray-200">
+              <i class="fa fa-envelope text-3xl"></i>
+            </a>
+            <a href="tel:+381665467585" aria-label="Call phone" class="nav-link hover:text-blueaccent transition font-semibold text-gray-200">
+              <i class="fa fa-phone text-3xl"></i>
+            </a>
+            <a href="https://github.com/Miks02" aria-label="GitHub" class="nav-link hover:text-blueaccent transition font-semibold text-gray-200">
+              <i class="devicon-github-original text-3xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/milan-nikoli%C4%87-8abb88254/" aria-label="LinkedIn" class="nav-link hover:text-blueaccent transition font-semibold text-gray-200">
+              <i class="devicon-linkedin-plain text-3xl"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-<script src="scripts/main.js"></script>
-</body>
-</html>
+        <footer class="pb-4 text-center text-gray-500 text-sm">
+         © <span id="year"></span> Milan Nikolić — 2025
+        </footer>
+
+      <script src="scripts/main.js"></script>
+    </body>
+    </html>
