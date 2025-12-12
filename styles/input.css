@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+
+@theme {
+  --color-redaccent: #B71C1C;
+  --color-darkbg: #21232c;
+  --color-panel: #0f0f11;
+  --color-softGray: #1a1a1a;
+  
+  --font-family-sans: Inter, Poppins, ui-sans-serif, system-ui, sans-serif;
+}
