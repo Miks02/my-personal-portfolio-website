@@ -16,19 +16,19 @@
 
   <header class="fixed inset-x-0 top-4 z-50 pointer-events-auto">
       <div class="max-w-6xl mx-auto px-6 py-4 flex justify-center">
-        <div class="w-11/12 md:w-2/3 lg:w-7/12 rounded-2xl bg-black/12 border border-red-500/70 backdrop-blur-2xl px-4 py-2 flex items-center justify-between shadow-sm">
-          <a href="#home" class="text-redaccent font-semibold text-lg">Milan Nikolić</a>
+        <div class="w-11/12 md:w-2/3 lg:w-7/12 rounded-2xl bg-black/12 border border-gray-400 backdrop-blur-2xl px-4 py-2 flex items-center justify-between shadow-sm">
+          <a href="#home" class="text-blueaccent font-semibold text-lg">Milan Nikolić</a>
 
           <nav class="hidden md:flex items-center gap-6 text-sm text-gray-200">
-            <a href="#home" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Home</a>
-            <a href="#about" class="nav-link hover:underline hover:text-redaccent transition font-semibold">About</a>
-            <a href="#experience" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Experience</a>
-            <a href="#projects" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Projects</a>
-            <a href="#contact" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Contact</a>
+            <a href="#home" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Home</a>
+            <a href="#about" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">About</a>
+            <a href="#experience" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Experience</a>
+            <a href="#projects" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Projects</a>
+            <a href="#contact" class="nav-link hover:underline hover:text-blueaccent transition font-semibold">Contact</a>
           </nav>
 
           <div class="md:hidden">
-            <button id="mobile-toggle" aria-label="Open menu" class="p-2 rounded-md ring-1 ring-white/6 hover:ring-redaccent font-semibold">
+            <button id="mobile-toggle" aria-label="Open menu" class="p-2 rounded-md ring-1 ring-white/6 hover:ring-blueaccent font-semibold">
               <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
@@ -39,21 +39,21 @@
 
       <div id="mobile-menu" class="md:hidden hidden mx-4 mt-2 rounded-xl bg-black/12 border border-white/6 backdrop-blur-2xl shadow-sm">
         <div class="px-6 py-4 flex flex-col gap-3">
-          <a href="#home" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Home</a>
-          <a href="#about" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">About</a>
-          <a href="#experience" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Experience</a>
-          <a href="#projects" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Projects</a>
-          <a href="#contact" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Contact</a>
+          <a href="#home" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Home</a>
+          <a href="#about" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">About</a>
+          <a href="#experience" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Experience</a>
+          <a href="#projects" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Projects</a>
+          <a href="#contact" class="block py-2 text-sm font-semibold hover:underline hover:text-blueaccent">Contact</a>
         </div>
       </div>
     </header>
 
 
-    <section id="home" class="min-h-screen w-full flex items-center relative overflow-hidden pt-16">
+    <section id="home" class="min-h-screen w-full flex items-center relative overflow-hidden pt-16 shadow-2xl">
       <div id="vanta-bg" class="absolute inset-0 w-full h-full -z-10" aria-hidden="true"></div>
       <div class="max-w-6xl mx-auto px-6 w-full relative z-10">
         <div class="text-center reveal in-view py-28">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-redaccent">
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-tight text-blue-500">
             Milan Nikolić
           </h1>
           <p class="mt-2 text-xl sm:text-2xl md:text-3xl font-semibold text-gray-300 tracking-wide">
@@ -63,7 +63,7 @@
             Specialized in C#, ASP.NET Core and Microsoft SQL Server.
           </p>
           <div class="mt-8 flex justify-center">
-            <a href="#projects" class="border border-red-700/60 inline-block text-white font-semibold px-6 py-3 rounded-md shadow-lg hover:shadow-xl hover:bg-gray-900 hover:border-white transition transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-redaccent/40">View Projects</a>
+            <a href="#projects" class="border border-blueaccent inline-block text-white font-semibold px-6 py-3 rounded-md shadow-lg hover:shadow-xl hover:bg-gray-900 hover:border-white transition transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blueaccent/40">View Projects</a>
           </div>
 
           <div class="mt-8 flex justify-center flex-wrap gap-4">
@@ -96,6 +96,115 @@
         </div>
       </div>
     </section>
+
+    <main class="max-w-7xl mx-auto px-6">
+
+      <section id="about" class="py-20">
+        <div class="mx-auto w-11/12 md:w-3/4">
+          <div class="flex flex-col md:flex-row items-start gap-10">
+            <div class="flex justify-center md:justify-start md:w-1/3">
+              <div class="w-56 h-56 rounded-xl bg-linear-to-br from-softGray to-panel flex items-center justify-center ring-1 ring-white/6 overflow-hidden shadow-lg">
+                <img src="/images/Profile.png" alt="Milan's profile photo" class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <div class="md:w-2/3">
+              <h2 class="text-3xl font-bold tracking-tight">Hello, I'm Milan</h2>
+              <p class="mt-3 text-sm text-blueaccent font-semibold uppercase tracking-widest">Full Stack Software Engineer</p>
+              
+              <div class="mt-6 space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  I am a Fullstack Software Engineer mainly focused on backend engineering, 
+                  while keeping my frontend work simple in terms of frameworks (at least for now). 
+                  I build most of my projects using ASP.NET Core MVC, where I focus on improving my C# skills without having to learn 
+                  both a backend and a frontend framework at the same time. Most of my frontend work is done with vanilla JS/TS, 
+                  with a small touch of HTMX for added interactivity without the need for full frontend frameworks.
+                </p>
+
+                <p>
+                  As a final-year student at the Information Technology School (ITS), 
+                  I am fully committed to writing well-structured and optimized code while continuously improving my technical skills.
+                </p>
+
+                <p>
+                  Outside of coding, my favorite hobbies are playing guitar, working out, and cooking.
+                </p>
+              </div>
+
+              <div class="mt-8 flex flex-wrap gap-4">
+                <div class="bg-panel rounded-lg p-4 border border-white/5">
+                  <div class="text-xl font-bold text-blueaccent">Backend</div>
+                  <p class="text-xs text-gray-400 mt-1">C# ASP.NET Core</p>
+                </div>
+                <div class="bg-panel rounded-lg p-4 border border-white/5">
+                  <div class="text-xl font-bold text-blueaccent">Frontend</div>
+                  <p class="text-xs text-gray-400 mt-1">JS/TS,Tailwind </p>
+                </div>
+                <div class="bg-panel rounded-lg p-4 border border-white/5">
+                  <div class="text-xl font-bold text-blueaccent">Database</div>
+                  <p class="text-xs text-gray-400 mt-1">MS Sql Server, MySQL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="about" class="py-20">
+        <div class="mx-auto w-11/12 md:w-3/4">
+          <div class="flex flex-col md:flex-row-reverse items-start gap-10">
+            <div class="flex  justify-center md:justify-end md:w-1/3">
+              <div class="w-56 h-56 rounded-xl bg-linear-to-br from-softGray to-panel flex items-center justify-center ring-1 ring-white/6 overflow-hidden shadow-lg">
+                <img src="/images/aspnet.png" alt="Milan's profile photo" class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <div class="md:w-2/3">
+              <h2 class="text-3xl font-bold tracking-tight">Why ASP.NET</h2>
+              <p class="mt-3 text-sm text-blueaccent font-semibold uppercase tracking-widest">Powerful, consistent, and easy to work with</p>
+
+              <div class="mt-6 space-y-4 text-gray-300 leading-relaxed">
+                <p>
+                  Before settling on ASP.NET Core, I spent a good amount of time experimenting with different backend stacks: Vanilla PHP, Laravel, and Spring Boot. Each of them taught me something useful, but none of them felt like the right fit.
+                </p>
+
+                <p>
+                  Laravel, for example, made it surprisingly easy to introduce small syntax mistakes that wouldn’t be caught until runtime. Vanilla PHP was my first backend language, but I quickly grew out of it: the lack of static typing and the amount of manual work became frustrating. Spring Boot came the closest to what I wanted, but the project I worked on required Thymeleaf for rendering — its syntax felt dated compared to Razor’s cleaner and more modern approach.
+                 </p>
+
+                <p>
+                  In August 2025, I decided to fully commit to C# and ASP.NET Core. Since then, I’ve built several projects using the MVC pattern, and I have really come to appreciate the framework’s structure, type safety, and overall developer experience.
+                </p>
+
+                <p>
+                  Right now, I’m transitioning from MVC to building Web APIs only, since I plan to pair them with a modern frontend framework — most likely React or Angular.
+                </p>
+
+                <p>
+                  <strong>I’m always open to learning and working with new technologies when the project requires it.</strong>
+                </p>
+              </div>
+
+              <div class="mt-8 flex  gap-4">
+                <div class="bg-panel rounded-lg p-4 border border-white/5 w-full min-w-50">
+                  <div class="text-xl font-bold text-blueaccent">Performance</div>
+                  <p class="text-xs text-gray-400 mt-1">Compiled .NET code delivers low-latency responses and efficient resource usage.</p>
+                </div>
+                <div class="bg-panel rounded-lg p-4 border border-white/5 w-full min-w-50">
+                  <div class="text-xl font-bold text-blueaccent">Databases</div>
+                  <p class="text-xs text-gray-400 mt-1">ORM's like Entity Framework make it pretty easy to work with databases </p>
+                </div>
+                <div class="bg-panel rounded-lg p-4 border border-white/5 w-full min-w-50">
+                  <div class="text-xl font-bold text-blueaccent">Ecosystem</div>
+                  <p class="text-xs text-gray-400 mt-1">ASP.NET has a strong ecosystem with great documentation and useful tools that make building applications simpler.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
 <script src="scripts/main.js"></script>
 </body>
