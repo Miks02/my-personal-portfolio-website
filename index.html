@@ -11,7 +11,44 @@
     <title>Milan Nikolić</title>
 </head>
 
+
 <body class="bg-darkbg text-gray-100 font-sans h-screen">
+
+  <header class="fixed inset-x-0 top-4 z-50 pointer-events-auto">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-center">
+        <div class="w-11/12 md:w-2/3 lg:w-7/12 rounded-2xl bg-black/12 border border-red-500/70 backdrop-blur-2xl px-4 py-2 flex items-center justify-between shadow-sm">
+          <a href="#home" class="text-redaccent font-semibold text-lg">Milan Nikolić</a>
+
+          <nav class="hidden md:flex items-center gap-6 text-sm text-gray-200">
+            <a href="#home" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Home</a>
+            <a href="#about" class="nav-link hover:underline hover:text-redaccent transition font-semibold">About</a>
+            <a href="#experience" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Experience</a>
+            <a href="#projects" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Projects</a>
+            <a href="#contact" class="nav-link hover:underline hover:text-redaccent transition font-semibold">Contact</a>
+          </nav>
+
+          <div class="md:hidden">
+            <button id="mobile-toggle" aria-label="Open menu" class="p-2 rounded-md ring-1 ring-white/6 hover:ring-redaccent font-semibold">
+              <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="md:hidden hidden mx-4 mt-2 rounded-xl bg-black/12 border border-white/6 backdrop-blur-2xl shadow-sm">
+        <div class="px-6 py-4 flex flex-col gap-3">
+          <a href="#home" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Home</a>
+          <a href="#about" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">About</a>
+          <a href="#experience" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Experience</a>
+          <a href="#projects" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Projects</a>
+          <a href="#contact" class="block py-2 text-sm font-semibold hover:underline hover:text-redaccent">Contact</a>
+        </div>
+      </div>
+    </header>
+
+
     <section id="home" class="min-h-screen w-full flex items-center relative overflow-hidden pt-16">
       <div id="vanta-bg" class="absolute inset-0 w-full h-full -z-10" aria-hidden="true"></div>
       <div class="max-w-6xl mx-auto px-6 w-full relative z-10">
